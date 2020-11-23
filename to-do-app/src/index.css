@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Raleway", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.text-title {
+  font-size: 16px;
+}
+
+.text-body-1 {
+  font-size: 14px;
+}
+.text-heavy {
+  font-weight: 800;
+}
+
+.flex-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.margin-20 {
+  margin: 20px;
+}
+.margin-t10 {
+  margin-top: 10px;
+}
+.margin-r10 {
+  margin-right: 10px;
+}
+.margin-b10 {
+  margin-bottom: 10px;
+}
+.margin-l10 {
+  margin-left: 10px;
+}
+.padding-hor25 {
+  padding: 0px 2px;
+}
+.padding-vert25 {
+  padding: 25px 0px;
+}
+.todo-item {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px #9b9b9b;
+}
+.small-search {
+  width: 300px;
+  margin: 0px 150x;
+}
+.priority-4 {
+  border-bottom: 5px solid #25ccf7;
+}
+
+.priority-3 {
+  border-bottom: 5px solid #55e6c1;
+}
+.priority-2 {
+  border-bottom: 5px solid #eab543;
+}
+.priority-1 {
+  border-bottom: 5px solid #f97f51;
+}
+
+.plus-img {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+.disabled {
+  color: darkgray;
+  background-color: #fafafa;
+}
